@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.servicio-cont >img {
+
+width:100%;
+height: 100%;
+display: inline-flex;
+margin: 5px;
+
+}
+.titulo {
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+
+}
+p {
+
+    font-weight: 300;
+    text-align:center;
+    padding: 10px;
+
+}
+
+img { 
+    width:100%;
+    height: 100%;
+}
+/* Our team */
+.about-services {
+    background: white;
+    padding-bottom: 30px;
+}
+
+.servicio-cont  {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.servicio-ind {
+    width: 28%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.servicio-ind img {
+    width: 90%;
+}
+.div-1 {
+    display: flex;
+}
+
+
+
